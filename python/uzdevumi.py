@@ -28,4 +28,27 @@ def otrais(): #def otrais(sakums = 0, beigas = 10, solis = 1)
 def tresais(teksts):
     print("Sakotnejais teksts ir", teksts)
     print("Tikai pāra indeksa burti:")
-    for i in teksts:
+    for i in range(0, len(teksts), 2):
+        print (teksts[i])
+    return
+#tresais("mergaite")
+
+
+def ceturtais(teksts, n):
+    print("Teksts", teksts)
+    print("Nonemot pirmos", n, "burtus sanāk:", teksts[n:]) #n novietojums nosaka kurus burtus nonems ja pirms kola pedejos, ja pec pirmos
+    return
+
+#ceturtais("mergaite", 4) #4 norada cik burtus nonem
+
+
+def piektais(saraksts):
+    print("Dotais saraksts", saraksts)
+    #if saraksts[0] == saraksts[-1]:
+    print("Result is", saraksts[0]==saraksts[-1])
+    return
+
+skaitli1 = [10, 20, 30, 40, 10]
+skaitli2 = [75, 65, 35, 75, 30]
+
+piektais(skaitli1)
