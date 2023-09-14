@@ -108,7 +108,7 @@ def pedejais(n):
         print()
     return
 
-# pedejais(7)
+pedejais(7)
 
 def pedejais_ar_rekursiju(n):
     if n == 1:
@@ -117,6 +117,6 @@ def pedejais_ar_rekursiju(n):
         print ("* "*n)
         pedejais_ar_rekursiju(n-1)
 
-pedejais_ar_rekursiju(5)
+#pedejais_ar_rekursiju(5)
 
 
