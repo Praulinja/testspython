@@ -48,19 +48,10 @@ def piektais(saraksts):
     print("Result is", saraksts[0]==saraksts[-1])
     return
 
-skaitli1 = [10, 20, 30, 40, 10]
-skaitli2 = [75, 65, 35, 75, 30]
-
-piektais(skaitli1)
- def piektais(saraksts):
-    print("Dotais saraksts:", saraksts)
-    print("Result is", saraksts[0]==saraksts[-1])
-    return
-
 #skaitli1 = [10, 20, 30, 40, 10]
 #skaitli2 = [75, 65, 35, 75, 30]
+# piektais(skaitli2)
 
-#piektais(skaitli2)
 
 def sestais(saraksts):
     print("dotais saraksts:", saraksts)
@@ -127,3 +118,5 @@ def pedejais_ar_rekursiju(n):
         pedejais_ar_rekursiju(n-1)
 
 pedejais_ar_rekursiju(5)
+
+
