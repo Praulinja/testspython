@@ -82,7 +82,7 @@ def devitais(skaitlis):
     print("ir palindroms")
     return
 
-# devitais("aka")
+devitais("aka")
 
 def desmitais(saraksts1, saraksts2):
     jaunais_saraksts = []
@@ -108,7 +108,7 @@ def pedejais(n):
         print()
     return
 
-pedejais(7)
+#pedejais(7)
 
 def pedejais_ar_rekursiju(n):
     if n == 1:
