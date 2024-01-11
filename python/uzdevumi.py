@@ -71,7 +71,7 @@ def astotais(n):
         print()
     return
 
-# astotais(8)
+#astotais(8)
 
 def devitais(skaitlis):
     teksta_forma = str(skaitlis)
@@ -82,7 +82,7 @@ def devitais(skaitlis):
     print("ir palindroms")
     return
 
-devitais("aka")
+#devitais("aka")
 
 def desmitais(saraksts1, saraksts2):
     jaunais_saraksts = []
@@ -117,6 +117,6 @@ def pedejais_ar_rekursiju(n):
         print ("* "*n)
         pedejais_ar_rekursiju(n-1)
 
-#pedejais_ar_rekursiju(5)
+pedejais_ar_rekursiju(5)
 
 
