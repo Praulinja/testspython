@@ -90,12 +90,12 @@ def vai_datums_pagajis(tagad_menesis, tagad_datums, salidzinamais_menesis, salid
 def datu_parbaude (gads_dz, menesis_dz, datums_dz, gads_sis, menesis_sis, datums_sis, diena_sis):
     pareizi_dati = True
     if gads_dz<=0 or menesis_dz<=0 or datums_dz<=0 or gads_sis<=0 or menesis_sis<=0 or datums_sis<=0 or diena_sis<=0:
-    #if gads_dz=number or menesis_dz=number or datums_dz=number or gads_sis<=0 or menesis_sis<=0 or datums_sis<=0 or diena_sis<=0:
+    #(meginaju laut tikai skaitlus) if gads_dz=number or menesis_dz=number or datums_dz=number or gads_sis<=0 or menesis_sis<=0 or datums_sis<=0 or diena_sis<=0:
         pareizi_dati = False
     #Visas citas datu pārbaudes
 
     if pareizi_dati == False:
-        print("Nepareizi ievades dati!")
+        print("Nepareiza ievade!")
     return pareizi_dati
 
 #?sis nestrāda
@@ -109,6 +109,7 @@ def menesu_parbaude (menesis_dz, menesis_sis):
     return pareizs_menesis
 #?sis nestrāda
 
+#meginaju laut tikai skaitlus
 def get_integer_input(prompt):
     while True:
         user_input = input(prompt).replace(",", "")
